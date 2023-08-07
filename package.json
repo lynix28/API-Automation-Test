@@ -1,0 +1,22 @@
+{
+  "name": "api-automation-test",
+  "version": "1.0.0",
+  "description": "API automation test project using CucumberJS for PINTU technical assessment",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "cucumber-js ./tests/features --parallel 3 --require ./tests/steps-definition/ -f html:./reports/test-report.html --publish-quiet "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-json-schema": "^1.5.1",
+    "@cucumber/cucumber": "^9.3.0",
+    "dotenv": "^16.3.1",
+    "supertest": "^6.3.3"
+  }
+}

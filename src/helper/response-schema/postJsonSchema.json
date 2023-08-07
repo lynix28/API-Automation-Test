@@ -1,0 +1,28 @@
+{
+    "type": "object",
+    "default": {},
+    "required": [
+        "title",
+        "body",
+        "userId",
+        "id"
+    ],
+    "properties": {
+        "title": {
+            "type": "string",
+            "default": ""
+        },
+        "body": {
+            "type": "string",
+            "default": ""
+        },
+        "userId": {
+            "type": "integer",
+            "default": 0
+        },
+        "id": {
+            "type": "integer",
+            "default": 0
+        }
+    }
+}
