@@ -1,6 +1,6 @@
 ## api-cucumberjs-example
 
-This project is contain API testing scenario using CucumberJS for PINTU technical assessment purposes
+This project is contain API testing using CucumberJS
 
 ---
 
