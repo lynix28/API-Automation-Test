@@ -1,8 +1,6 @@
-## API Automation Test Project
+## api-cucumberjs-example
 
-Test scope: API Testing
-
-Description: This project is contain API testing scenario using CucumberJS for PINTU technical assessment purposes
+This project is contain API testing scenario using CucumberJS for PINTU technical assessment purposes
 
 ---
 
@@ -39,5 +37,4 @@ How to run:
 
 Report:
 
-- Sample evidences are provided as a proof of this project
-   - check folder `reports`
+- The file report will be generated in HTML and saved to `reports` directory
