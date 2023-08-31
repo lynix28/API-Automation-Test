@@ -1,6 +1,6 @@
 ## api-cucumberjs-example
 
-<a href="https://gitlab.com/lynix28/api-cucumberjs-example/-/commits/master"><img alt="pipeline status" src="https://gitlab.com/lynix28/api-cucumberjs-example/badges/master/pipeline.svg" /></a>
+<a href="https://gitlab.com/lynix28/api-cucumberjs-example/-/pipelines"><img alt="pipeline status" src="https://gitlab.com/lynix28/api-cucumberjs-example/badges/master/pipeline.svg" /></a>
 
 This project is contain API testing using CucumberJS
 
