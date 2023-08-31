@@ -1,22 +1,27 @@
 {
   "name": "api-automation-test",
   "version": "1.0.0",
-  "description": "API automation test project using CucumberJS for PINTU technical assessment",
+  "description": "API automation test project example using CucumberJS",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "cucumber-js ./tests/features --parallel 3 --require ./tests/steps-definition/ -f html:./reports/test-report.html --publish-quiet "
+    "test": "cucumber-js ./tests/features --parallel 3 --require ./tests/steps-definition/ -f html:./reports/test-report.html --format ./src/helper/reporter.js",
+    "report": "allure serve ./reports/allure-results"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@cucumber/cucumber": "^9.3.0",
+    "allure-cucumberjs": "^2.6.0",
     "chai": "^4.3.7",
     "chai-json-schema": "^1.5.1",
-    "@cucumber/cucumber": "^9.3.0",
     "dotenv": "^16.3.1",
     "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.24.0"
   }
 }

@@ -38,3 +38,4 @@ How to run:
 Report:
 
 - The file report will be generated in HTML and saved to `reports` directory
+- Allure report also will generated, open it using this command `npm run report`

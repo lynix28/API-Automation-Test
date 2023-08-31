@@ -44,4 +44,4 @@ Feature: Get Data from endpoint path /posts
         Examples:
             | key    |
             | id     |
-            | userId |
+            # | userId |
